@@ -1,0 +1,48 @@
+/** The body element uses background-gif as the background image. **/
+body { background-image: background.gif;
+	   background-color: #FCEBB6; 
+       color: #5f3212;
+       font-family: Calbiri, Arial, sans-serif;
+}
+header { background-color: #D2B48C;
+        text-align: center; }
+h1 { line-height: 200%; }
+/** h2 element includes background color, font size and padding for the left and bottom. **/
+h2 {
+	 background-color: #ccaa66;
+	 font-size: 1.2em;
+	 padding-left: 10px;
+	 padding-bottom: 5px;
+}
+/** Images elements will not display borders. **/
+img{
+	 border: none;
+}
+nav { text-align: center; 
+     font-weight: bold; 
+	 padding-top: 20px;}
+/** The main element contins 25px of padding. **/
+main {
+	 padding: 25px;
+}
+/** The footer contains 10px of padding. **/
+footer { background-color: #D2B48C;
+       font-size: small;
+	   font-style: italic;
+	   color: #221811;
+	   text-align: center;
+	   padding: 10px;
+}
+/** Styles for the wrapper id include background-color, min-width, max-width and box-shadow. **/
+#wrapper { background-color: #ffffcc;
+		   box-shadow: 2px 2px 2px black;
+		   width: 80%;
+		   min-width: 700px;
+		   max-width: 1024px;
+           margin-right: auto;
+		   margin-left: auto;}
+/** Styles for the details class include 20% left and right padding for the music page. **/
+.details {
+	 padding-left: 20%;
+	 padding-right: 20%;
+}

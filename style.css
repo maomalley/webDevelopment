@@ -1,0 +1,9 @@
+a:hover{
+	font-size: 200%;
+	color: green;
+}
+
+a:focus{
+	background-color: black;
+	color: white;
+}

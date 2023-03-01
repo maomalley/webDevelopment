@@ -1,0 +1,20 @@
+h1 {
+	 color: green;
+}
+body {
+	 background-color: blue; 
+	 color: rgb(0,255,0);
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 48px;
+	 font-weight: normal; 								 /*body changed but not h1 tag (title)*/
+	 font: normal 20px Arial, Helvetica, sans-serif;	 /*one-line for all code*/
+}
+.box-1{
+	background-color:yellow;
+	color: red;
+}
+.container{
+	width = 500px;
+	
+	
+}
